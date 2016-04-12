@@ -1,0 +1,13 @@
+
+<header class="box greeting"><h1 class="header__title">{{results.title}}</h1></header>
+<div class="box players">
+	<div class="box playerOne">
+		<label>{{results.winner}}</label>
+	</div>
+	<div class="box playerTwo">
+		<label>{{results.message}}</label>
+	</div>
+</div>
+<div class="box startGame">
+	<button ng-click="redirect('#/start')" ng-init="roundIndex=0">again ?</button>
+</div>

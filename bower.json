@@ -1,0 +1,15 @@
+{
+  "name": "gameofdrones",
+  "description": "A starter project for gaming",
+  "version": "1.0.0",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-mocks": "1.4.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "angular-route": "1.4.x",
+    "angular-resource": "1.4.x"
+  }
+}

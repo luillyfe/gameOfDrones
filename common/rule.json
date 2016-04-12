@@ -1,0 +1,21 @@
+{  
+   "properties":{  
+      "id":{  
+         "type":"string"
+      },
+      "name":{  
+         "type":"string"
+      },
+      "greater":{  
+         "type":"string"
+      },
+      "lower":{  
+         "type":"string"
+      }
+   },
+   "required":[  
+      "name",
+      "greater",
+      "lower"
+   ]
+}

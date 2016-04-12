@@ -1,0 +1,15 @@
+
+<header class="box greeting"><h1 class="header__title">{{game.title}}</h1></header>
+<div class="box players">
+	<div class="box playerOne">
+		<label>{{game.playerOne}}</label>
+		<input type="text" placeholder="name" ng-model="playerOne"></input>
+	</div>
+	<div class="box playerTwo">
+		<label>{{game.playerTwo}}</label>
+		<input type="text" placeholder="name" ng-model="playerTwo"></input>
+	</div>
+</div>
+<div class="box startGame">
+	<button ng-click="redirect('#/round')">{{game.start}}</button>
+</div>

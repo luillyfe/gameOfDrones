@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gameOfDrone">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <link rel="stylesheet" href="/styles/layouts-common.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/controllers.js"></script>
+
+    <title>Game Of Drones</title>
+  </head>
+  <body>
+    <div class="container" role="main">
+      
+      <nav id="drawer" class="nav">
+        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0"/>
+          </svg>
+        </a>
+      </nav>
+
+      <main role="content">
+        <div ng-view></div>
+      </main>
+    <div>
+  </body>
+</html>

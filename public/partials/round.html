@@ -1,0 +1,17 @@
+
+<header class="box greeting"><h1 class="header__title">{{round.title}}</h1></header>
+<div class="box players">
+	<div class="box playerOne">
+		<label>{{players[0].name +' have '+ players[0].points}}</label>
+		<label>{{players[1].name +' have '+ players[1].points}}</label>
+	</div>
+	<div class="box playerTwo">
+	  <label>{{round.playerMoves}}</label>
+	  <select ng-model="moveChose">
+        <option ng-repeat="move in moves" value="{{move}}">{{move.name}}</option>
+      </select>
+	</div>
+</div>
+<div class="box startGame">
+	<button ng-click="setRound()" ng-init="roundIndex=0">ok</button>
+</div>

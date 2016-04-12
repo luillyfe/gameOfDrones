@@ -1,0 +1,17 @@
+[
+  {
+    "name": "PAPER",
+    "greater": "ROCK",
+    "lower": "SCISSOR"
+  },
+  {
+    "name": "ROCK",
+    "greater": "SCISSOR",
+    "lower": "PAPER"
+  },
+  {
+    "name": "SCISSOR",
+    "greater": "PAPER",
+    "lower": "ROCK"
+  }
+]
